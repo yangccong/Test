@@ -13,7 +13,7 @@ public class Date {
 			return false;
 		}
 	}
-	
+	//hhhh
 	public boolean judgeDate(){//年月日中只要有一个变量不符合规范，就会将state赋值为false
 		if(year<1812||year>2017){//先判断年份
 			System.out.println("年份不在合法域1812~2017内");
